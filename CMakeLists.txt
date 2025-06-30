@@ -3,4 +3,4 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(DevKit-V1_Template)
+project(ESP32_DevKit-V1_Bringup)
