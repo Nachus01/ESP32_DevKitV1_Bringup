@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/CMakeFiles/bootloader
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/CMakeFiles/bootloader.rule
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/CMakeFiles/bootloader-complete.rule
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/ESPWorkspaces/ESP32_DevKitV1_Bringup/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
