@@ -1,4 +1,5 @@
 # ESP-IDF_ProjectBringup
+### Version 1.1.1.1
  A modular starter project demonstrating core ESP-IDF features, built for rapid prototyping and personal mastery.
 
 ## Getting Started
