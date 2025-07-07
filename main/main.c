@@ -23,14 +23,14 @@ void app_main(void)
     gpio_set_pull_mode(GPIO_NUM_22,GPIO_PULLUP_ONLY);
 
     //Configure Output
-    gpio_set_direction(GPIO_NUM_26,GPIO_MODE_OUTPUT);
+    gpio_set_direction(GPIO_NUM_23,GPIO_MODE_OUTPUT);
 
     while(true)
     {
         buttonCurrentState = gpio_get_level(GPIO_NUM_22);
         if(buttonCurrentState)
         {
-            gpio_set_level(GPIO_NUM_26,buttonCurrentState);
+            gpio_set_level(GPIO_NUM_23,buttonCurrentState);
             if (buttonPreviousState)
             {
                 //do nothing
@@ -43,7 +43,7 @@ void app_main(void)
         }
         else
         {
-            gpio_set_level(GPIO_NUM_26,buttonCurrentState);
+            gpio_set_level(GPIO_NUM_23,buttonCurrentState);
             if (buttonPreviousState)
             {
                 ESP_LOGI(TAG, "The button became de-pressed, Turning the LED OFF!");
