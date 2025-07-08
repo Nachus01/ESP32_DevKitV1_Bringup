@@ -1,5 +1,5 @@
 # ESP-IDF_ProjectBringup
-### Version 1.1.1.1
+### Version 1.2.1.1
  A modular starter project demonstrating core ESP-IDF features, built for rapid prototyping and personal mastery.
 
 ## Getting Started
@@ -19,12 +19,12 @@
 ## Features
 ### Implemented:
 * GPIO demo: A basic GPIO showcase using a button and LED.
-### In Progress:
 * Software modularization
+### In Progress:
 * Project and module documentation
 * UART 
-### Upcomming:
 * WiFi
+### Upcomming:
 * ESP-NOW
 * BLE
 
