@@ -11,6 +11,8 @@
 
  //#includes
  #include "GPIOManager.h"
+#include "esp_log.h"
+static const char *GPIOTAG = "GPIO_Debug";
 
  //Function Definitions
   void GPIOM_init()
@@ -18,7 +20,7 @@
     
     //Configure Input
     gpio_set_direction(GPIO_NUM_22,GPIO_MODE_INPUT);
-    gpio_set_pull_mode(GPIO_NUM_22,GPIO_PULLUP_ONLY);
+    gpio_set_pull_mode(GPIO_NUM_22,GPIO_PULLDOWN_ONLY); //Pulldown: 3v3 is a boolean "true", everything else is a boolean "false"
 
     //Configure Output
     gpio_set_direction(GPIO_NUM_23,GPIO_MODE_OUTPUT);
